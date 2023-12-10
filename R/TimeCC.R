@@ -1,3 +1,29 @@
+#' Time Cross Correlation Function
+#'
+#' The TimeCC function calculates the cross-correlation between two time series, providing an asymptotically unbiased estimator. The function assumes that the input time series (x and y) are of the same length.
+#'
+#' @param x The first time series.
+#' @param y The second time series.
+#'
+#' @return A numeric vector representing the combined cross-correlation values for positive and negative lags.
+#'
+#' @details
+#' The cross-correlation is not symmetric, so be careful when dealing with negative lags.
+#'
+#' @references
+#' Insert any relevant references or citations here.
+#'
+#' @examples
+#' # Example usage:
+#' x <- c(1, 2, 3, 4, 5)
+#' y <- c(5, 4, 3, 2, 1)
+#' result <- TimeCC(x, y)
+#'
+#' @seealso
+#' \code{\link{crossprod}}, \code{\link{rev}}
+#'
+#' @export
+
 TimeCC<-function(x,y)
 {
   # Time Cross correlation function  
