@@ -1,6 +1,6 @@
 #' Calculate Time-Lagged Autocorrelation
 #'
-#' This function computes the time-lagged autocorrelation of a given time series.
+#' This function computes the time-lagged (unbiased) autocorrelation of a given time series.
 #'
 #' @param x A numeric vector representing the time series.
 #'
@@ -23,7 +23,7 @@
 #' Insert any relevant references or citations here.
 #'
 #' @export
-TimeAC <- function(x) {
+TimeAC <- function(x,type="unbiased") {
   
   M <- length(x)
   r <- array(0, dim = c(M))  # One-sided autocorrelation
@@ -33,5 +33,10 @@ TimeAC <- function(x) {
   }
   
   rr = c(rev(r[2:M]), r[1:M]) 
-  return(rr/M)
+  
+  if (type=='unbiased'){
+    rr<- rr/M
+  }
+  
+  return(rr)
 }

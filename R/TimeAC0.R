@@ -1,6 +1,6 @@
 TimeAC0 <- function(x)
 {
-  # Asymtotically unbiased estimator for autocorrelation
+  # Biased estimator for autocorrelation
   
   M <-length(x)
   r <- array(0, dim = c(M))  # One-sided autocorrelation
