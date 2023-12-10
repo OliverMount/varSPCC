@@ -7,8 +7,8 @@
 #' @return A numeric vector containing the time-lagged autocorrelation values.
 #'
 #' @details
-#' The function calculates the autocorrelation for different time lags.
-#' It uses a one-sided autocorrelation approach and returns a vector of autocorrelation values.
+#' The function calculates the autocorrelation for different time lags and
+#'  returns a vector of (double-sided) autocorrelation values.
 #'
 #' @examples
 #' # Example usage:
