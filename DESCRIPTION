@@ -1,14 +1,12 @@
 Package: varSPCC
-Title: Variance of Sample Pearson Correlation 
+Title: Variance of Sample Pearson Correlation
 Version: 0.1
-Authors@R: c(person("Oliver", "James", email = "", role = c("aut", "cre")))
-Description: This package contains functions for computing the variance of sample Pearson correlation of two auto-correlated time series 
-Depends: R (>= 3.1.0),
-License: 
+Authors@R: c(person("Oliver", "James", email = "oliver.mount.8@gmail.com", role = c("aut", "cre")))
+Description: This package contains functions for computing the variance of the sample Pearson correlation of two auto-correlated time series.
+Depends: R (>= 3.1.0)
+License: GPLv3
 LazyData: true
 RoxygenNote: 7.2.3
-Imports: 
-Suggests: 
 VignetteBuilder: knitr
 Encoding: UTF-8
 URL: https://github.com/OliverMount/varSPCC

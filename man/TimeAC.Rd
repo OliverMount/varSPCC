@@ -7,13 +7,15 @@
 TimeAC(x, type = "unbiased")
 }
 \arguments{
-\item{x}{A numeric vector representing the time series.}
+\item{x}{A numeric vector representing the time series.
+type A character vector indicating the type of estimator c("unbiased","biased")
+Default value is "unbiased"}
 }
 \value{
 A numeric vector containing the time-lagged autocorrelation values.
 }
 \description{
-This function computes the time-lagged (unbiased) autocorrelation of a given time series.
+This function computes the time-lagged autocorrelation of a given time series.
 }
 \details{
 The function calculates the autocorrelation for different time lags and
