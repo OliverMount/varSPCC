@@ -4,7 +4,7 @@
 \alias{TimeAC}
 \title{Calculate Time-Lagged Autocorrelation}
 \usage{
-TimeAC(x)
+TimeAC(x, type = "unbiased")
 }
 \arguments{
 \item{x}{A numeric vector representing the time series.}
@@ -13,7 +13,7 @@ TimeAC(x)
 A numeric vector containing the time-lagged autocorrelation values.
 }
 \description{
-This function computes the time-lagged autocorrelation of a given time series.
+This function computes the time-lagged (unbiased) autocorrelation of a given time series.
 }
 \details{
 The function calculates the autocorrelation for different time lags and

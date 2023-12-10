@@ -33,7 +33,7 @@ varSPCC<- function(x,y)
   # x and y are two time series
   N= length(x)   # length of the time series (assuming both are equal length)
   
-  # Initializations
+  # Initialization
   D<-array(0,dim=c(3,3))
  
   # Estimate the time series correlation
