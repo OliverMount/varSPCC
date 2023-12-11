@@ -3,7 +3,7 @@
 #' This function computes the time-lagged autocorrelation of a given time series.
 #'
 #' @param x A numeric vector representing the time series.
-#'        type A character vector indicating the type of estimator c("unbiased","biased")
+#' @param  type A character vector indicating the type of estimator c("unbiased","biased")
 #'        Default value is "unbiased"
 #'        
 #' @return A numeric vector containing the time-lagged autocorrelation values.

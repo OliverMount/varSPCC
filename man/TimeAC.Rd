@@ -7,8 +7,9 @@
 TimeAC(x, type = "unbiased")
 }
 \arguments{
-\item{x}{A numeric vector representing the time series.
-type A character vector indicating the type of estimator c("unbiased","biased")
+\item{x}{A numeric vector representing the time series.}
+
+\item{type}{A character vector indicating the type of estimator c("unbiased","biased")
 Default value is "unbiased"}
 }
 \value{
