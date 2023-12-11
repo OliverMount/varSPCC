@@ -9,4 +9,4 @@
 # varSPCC
 R package for estimating variance of sample Pearson correlation between two auto-correlated time series as detailed in James et al. [^1]
 
-[^1]: James, O, Park, H, Kim, S-G. Impact of sampling rate on statistical significance for single subject fMRI connectivity analysis. **Human Brain Mapping**  2019; 40: 3321–3337. https://doi.org/10.1002/hbm.24600
+[^1]: **James, O,** Park, H, Kim, S-G. Impact of sampling rate on statistical significance for single subject fMRI connectivity analysis. **Human Brain Mapping**  2019; 40: 3321–3337. https://doi.org/10.1002/hbm.24600
