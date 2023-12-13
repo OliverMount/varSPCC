@@ -12,6 +12,6 @@ R package for estimating variance of sample Pearson correlation between two auto
 ![Theorem](figs/RoyTheorem.png)
 
 [^1]: **James, O,** Park, H, Kim, S-G. Impact of sampling rate on statistical significance for single subject fMRI connectivity analysis. **Human Brain Mapping**  2019; 40: 3321–3337. https://doi.org/10.1002/hbm.24600
-[^2]:  Roy, R., 1989. Asymptotic covariance structure of serial correlations in multivariate time series.
+[^2]: Roy, R., 1989. Asymptotic covariance structure of serial correlations in multivariate time series.
 Biometrika 76 (4), 824–827.
 
